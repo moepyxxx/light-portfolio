@@ -27,7 +27,7 @@ export const Typography: React.FC<WithBaseElementProps<Props>> = ({
   const Element = element;
 
   const typographyStyle = tv({
-    base: "text-black whitespace-pre-wrap",
+    base: "whitespace-pre-wrap",
     variants: {
       size: {
         xLarge: "text-2xl leading-loose",

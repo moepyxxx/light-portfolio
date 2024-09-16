@@ -17,5 +17,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: ["text-background"],
 };
 export default config;
